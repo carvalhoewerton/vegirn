@@ -17,3 +17,7 @@ ng s
 <h2>Como iniciar o Spring:</h2>
 Verifique que você tenha o Java instalado em sua maquina, depois:<br>
 mvn spring-boot:run
+
+![landpage](images/vegi1.png)
+![lista](images/vegi2.png)
+
