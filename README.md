@@ -4,7 +4,7 @@ Esse programa consiste em uma aplicação Spring + Angular em que o Javascript p
 <h2>Esse programa utiliza: </h2>
   Java/Spring para o backend<br>
   Angular pro frontend<br>
-  Postgre for database<br>
+  Postgre para o banco de dados<br>
   Geolocation API para as coordenadas
 
 <h2>Como iniciar o Angular:</h2> 
