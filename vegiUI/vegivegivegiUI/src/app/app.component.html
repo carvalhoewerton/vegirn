@@ -1,0 +1,23 @@
+<div class="main">
+  <div class="container">
+    <div class="plus">
+      <h1>Vegivegi</h1>
+      <p>Bem-vindo ao Vegivegi! Descubra estabelecimentos e deliverys perto de você que vendam produtos veganos/vegetarianos. Para começar, basta digitar a distância desejada e clicar no botão logo abaixo.</p>
+      <input class="input" type="number" [(ngModel)]="pre">
+      <button class="button" (click)="click()">Começar</button>
+
+      <div class="pl4" *ngFor="let place of places" >
+        <app-place
+        [name]="place.name"
+        [link]="place.tripAdvisor"
+        [description]="place.description"
+        [distance]="place.address === '-' ? '-' : formatDistance(place.distance)"
+        [tripAdvisor]="place.tripAdvisor"
+        [img]="place.img"
+        [address]="place.address">
+        </app-place>
+      </div>
+
+    </div>
+  </div>
+</div>
